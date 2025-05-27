@@ -1,0 +1,28 @@
+{
+    "short_name": "Random",
+    "developer": {
+        "url": "https://www.github.com/Shresht7",
+        "name": "Shresht Srivastav"
+    },
+    "name": "Random",
+    "description": "A website for when you need some randomness",
+    "icons": [
+        {
+            "src": "assets/512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#971d41",
+    "background_color": "#971d41",
+    "display": "standalone",
+    "start_url": ".",
+    "default_locale": "en"
+}

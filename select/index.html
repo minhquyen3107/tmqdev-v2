@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/dice-6.svg" type="image/svg">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/_base.css">
+    <link rel="stylesheet" href="/select/style.css">
+
+    <!-- Scripts -->
+    <script type="module" src="/select/script.js"></script>
+
+    <!-- Title -->
+    <title>Random | Select</title>
+</head>
+
+<body>
+
+    <!-- BACK BUTTON -->
+    <a href="/" id="back" data-tooltip="Go Back" data-tooltip-pos="right">
+        <p class="hidden">Back</p>
+        <svg width=16 height=16 viewBox="0 0 24 24" fill="white" style="transform: rotate(180deg);"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M25.0607 13.0607C25.6464 12.4749 25.6464 11.5251 25.0607 10.9393L15.5147 1.3934C14.9289 0.807612 13.9792 0.807612 13.3934 1.3934C12.8076 1.97918 12.8076 2.92893 13.3934 3.51472L21.8787 12L13.3934 20.4853C12.8076 21.0711 12.8076 22.0208 13.3934 22.6066C13.9792 23.1924 14.9289 23.1924 15.5147 22.6066L25.0607 13.0607ZM0 13.5H24V10.5H0V13.5Z">
+            </path>
+        </svg>
+    </a>
+
+    <!-- HEADER SECTION -->
+    <header class="flex gap-1">
+        <a href="/" class="flex flex-row">
+            <img src="/assets/dice-4.svg" alt="logo" />
+            <h1 class="bold">Random</h1>
+        </a>
+        <p class="font-family-cursive font-size-3">NHẬP ĐỐI TƯỢNG!</p>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+
+        <!-- INPUT -->
+        <div id="selection" class="flex gap-2">
+            <button type="submit" id="randomize" class="btn bold" tabindex="2">
+                SELECT
+            </button>
+            <label for="input"></label>
+            <input id="input" placeholder="Enter your text here ..." tabindex="1" />
+        </div>
+
+        <!-- LIST -->
+        <div id="list" class="flex gap-1">
+        </div>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="font-size-1 flex flex-row gap-1">
+        <span class="font-family-cursive font-size-1">Made by</span> <a href="https://www.facebook.com/quyen.than.1460"
+            class="bold underline-on-hover">THÂN MINH QUYỀN</a>
+        <span>|</span>
+        <span class="font-family-cursive font-size-1">View source on</span> <a
+            href="https://github.com/minhquyen3107" class="bold underline-on-hover">GitHub</a>
+    </footer>
+
+    <!-- Back to Top -->
+    <div id="back-to-top" class="hidden fade-in cursor-pointer" data-tooltip="Back to Top" data-tooltip-pos="left">
+        <svg width=16 height=16 viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"
+            style="transform: rotate(-90deg);">
+            <path
+                d="M25.0607 13.0607C25.6464 12.4749 25.6464 11.5251 25.0607 10.9393L15.5147 1.3934C14.9289 0.807612 13.9792 0.807612 13.3934 1.3934C12.8076 1.97918 12.8076 2.92893 13.3934 3.51472L21.8787 12L13.3934 20.4853C12.8076 21.0711 12.8076 22.0208 13.3934 22.6066C13.9792 23.1924 14.9289 23.1924 15.5147 22.6066L25.0607 13.0607ZM0 13.5H24V10.5H0V13.5Z">
+            </path>
+        </svg>
+    </div>
+</body>
+
+</html>
